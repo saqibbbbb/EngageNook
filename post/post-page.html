@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style-section.css">
+    <link rel="stylesheet" href="/css/style-post-page.css">
+    <link rel="stylesheet" href="/css/input.css">
+    <title>blog</title>
+</head>
+
+<body>
+    <nav class="nav-bar responsive-bar">
+        <ul class="nav-list responsive-list">
+            <li class="logo"><a href="../index.html">EngageNook</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#all-posts">All posts</a></li>
+        </ul>
+        <div class="right-nav responsive-list">
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Search">
+                <button class="btn search">Search</button>
+            </div>
+            <button class="btn L
+            login">Login</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="post-heading"> The Problematic Plague of Plastic Bags</div>
+    <div class="post-container">
+        <div class="post-content">
+            <p class="post-para">
+                Plastic bags, once hailed for their convenience, have evolved into a pervasive environmental menace.
+                Their non-biodegradable nature means they persist in our environment for hundreds of years, causing harm
+                at every stage of their lifecycle. Millions of plastic bags end up in our oceans annually, posing a
+                severe threat to marine life as animals often ingest them, mistaking them for food. This leads to injury
+                and death in numerous species. Plastic bags also disrupt natural habitats, suffocating plants and
+                wildlife and damaging biodiversity. The production and disposal of these bags contribute to climate
+                change and air pollution, releasing harmful greenhouse gases and pollutants into the atmosphere.
+            </p>
+            <p class="post-para">
+                The economic costs associated with plastic bags are substantial. Local governments bear the brunt of
+                cleanup expenses, diverting funds from essential services to address litter in streets, parks, and
+                waterways. Furthermore, property values can be negatively affected by plastic bag litter, as it often
+                signals neglect and blight. Clogged drainage systems, a result of plastic bags, lead to costly
+                infrastructure damage and flooding, necessitating ongoing maintenance and repairs.</p>
+            <p class="post-para">
+
+                Beyond the environmental and economic consequences, plastic bags pose significant health hazards. They
+                may contain harmful chemicals like phthalates and BPA, which can leach into food or water when exposed
+                to sunlight and heat. Additionally, as plastic bags break down into smaller particles known as
+                microplastics, they can enter the food chain, endangering both aquatic and terrestrial ecosystems. The
+                incineration of plastic bags releases toxic fumes, contributing to respiratory problems and other health
+                issues for nearby communities.
+            </p>
+            <p class="post-para">
+                On a societal level, the unsightly presence of plastic bag litter creates a demoralizing living
+                environment, negatively impacting the quality of life in affected communities. This problem often falls
+                disproportionately on marginalized communities, highlighting issues of environmental justice. To
+                mitigate these problems, a comprehensive approach is necessary, involving individuals, businesses, and
+                governments. Consumers can shift to reusable alternatives, businesses can adopt sustainable packaging
+                practices, and governments can implement policies like bans or taxes on single-use plastic bags. By
+                addressing the multifaceted problems associated with plastic bags, we take a crucial step towards a more
+                sustainable and healthier future for our planet and its inhabitants.
+            </p>
+        </div>
+        <div class="post-reactions">
+            <p class="emoji-post" id="comment-btn" style="font-size:25px" >&#128172;</p>
+            <div class="reaction comment" id="comment-btn-text" ><p>comment</p></div>
+            <p class="emoji-post" style="font-size:25px" id="incrementButton">&#128077;</p>
+            <div class="reaction upvote"><span id = "count">0</span></div>
+            <p class="emoji-post" style="font-size:25px" id="incrementButtonDown">&#128078;</p>
+            <div class="reaction downvote"><span id = "countDown">0</span></div>
+        </div>
+        <div id="hidden-section" class="container">
+            <input type="text" id="inputUserName" placeholder="username">
+            <input type="text" id="inputText" placeholder="Comment...">
+            <button onclick="displayInput()">Submit</button>
+        </div> 
+        <div class="post-comments">
+            <p id="output"></p>
+            <div class="post-comment">
+                <p class="post-comment-content">BlueSkyExplorer : Plastic bags are a significant source of environmental pollution. They often end up as litter in streets, parks, and water bodies, degrading the visual appeal of these areas.</p>
+            </div>
+            <div class="post-comment">
+                <p class="post-comment-content"> QuantumCoder : Wildlife, both on land and in the ocean, can ingest or become entangled in plastic bags, leading to injury or death. Marine animals like turtles and seabirds are particularly vulnerable.</p>
+            </div>
+            <div class="post-comment">
+                <p class="post-comment-content"> MidnightWhisperer : Over time, plastic bags break down into smaller particles, contributing to the growing problem of microplastic pollution. These tiny plastic particles can enter the food chain and have unknown consequences for ecosystems and human health.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p class="text-footer">
+            Copyright &copy; 2027 www.EngageNook.com - All Rights reserved
+        </p>
+    </footer>
+
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/input.js"></script>
+    <script src="/scripts/hidden.js"></script>
+</body>
+
+</html>

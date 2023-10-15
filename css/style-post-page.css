@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto+Slab:wght@100&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400&display=swap');
+
+.post-container{
+    width: 80%;
+    height: 100%; 
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.post-content{
+    padding: 30px;
+    background-color: #fefae0;
+    border: 2px solid #6a040f;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.post-reactions{
+    background-color: #6a040f;
+    padding: 5px 25px;
+    display: flex;  
+    align-items: center;
+    color: white;
+}
+
+.post-comments{
+    padding: 30px;
+    background-color: #fefae0;
+    border: 2px solid #6a040f;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 0px;
+}
+
+.post-comment-content{
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+#hidden-section{
+    display: none;
+}
